@@ -54,7 +54,7 @@ class Repository extends Component {
 
   loadIssues = async () => {
     const { repository, filterIndex, filters, page } = this.state;
-    const issues = await api.get(`/repos/${repository.name}/issues`, {
+    const issues = await api.get(`/repos/${repository.full_name}/issues`, {
       params: {
         state: filters[filterIndex].state,
         per_page: 5,
