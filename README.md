@@ -43,3 +43,4 @@ localhost:3000
 ## Screenshot
 
 <img alt="Screenshot Main" src=".github/screenshot-main.png" />
+<img alt="Screenshot Detail" src=".github/screenshot-detail.png" />
